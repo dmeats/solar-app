@@ -1,0 +1,13 @@
+.powerCounterContainer{
+    background-color: black;
+    padding: 10px 10px;
+    color: red;
+    border-radius: 0px;
+    width:190px;
+    margin:10px; 
+    height: auto;
+    flex: 1 1 auto;
+}
+.powervalue{
+    color:yellow;
+}

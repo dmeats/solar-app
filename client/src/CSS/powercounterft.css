@@ -1,0 +1,17 @@
+.powerCounterContainer{
+    background-color: #022c1c;
+    position: fixed;
+    font-size: 14px;
+    color: rgb(240, 229, 229);
+    width:360px;
+    margin:0px; 
+    
+    height: 70px;
+    flex: auto;
+    flex-direction: column;
+    bottom: 0px;
+    z-index: 2;
+}
+.powervalue{
+    color:yellow;
+}

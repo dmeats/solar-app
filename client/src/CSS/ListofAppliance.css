@@ -1,0 +1,229 @@
+.ListofApplianceContainer{
+    display: flex;
+    background: rgb(51, 75, 46);
+    min-height: 250vh;
+    position: absolute;
+    width:100%;
+    top:56px; 
+    z-index: 0;
+    padding:0px;
+    margin-bottom: 55px;
+    
+    
+    
+}
+
+.ItemDetail{
+    color: rgb(222, 238, 215);
+    background-color: rgb(77, 155, 75);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid black;
+   
+}
+
+.Bedroom1{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(199, 212, 18);
+   
+}
+.Bedroom2{
+    color: rgb(222, 238, 215);
+    background-color:rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(219, 148, 15);
+   
+}
+
+.Bedroom3{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(219, 90, 15);
+   
+}
+
+.LivingRoom1{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(15, 46, 219);
+   
+}
+
+.LivingRoom2{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(28, 36, 77);
+   
+}
+
+.LivingRoom3{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(27, 183, 211);
+   
+}
+.Kitchen1{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(184, 84, 187);
+   
+}
+.Kitchen2{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(251, 143, 228);
+   
+}
+.LaundryRoom{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(32, 1, 7);
+   
+}
+
+.Garage{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(255, 7, 56);
+   
+}
+
+.Bathroom1{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(236, 215, 215);
+   
+}
+
+.Bathroom2{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(156, 141, 141);
+   
+}
+
+.Basement{
+    color: rgb(222, 238, 215);
+    background-color: rgb(86, 107, 86);
+    padding:5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 2px;
+    list-style: none;
+   
+    border: 2px solid rgb(92, 80, 26);
+   
+}
+p{
+    white-space: normal;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+   
+}
