@@ -9,7 +9,7 @@ const SELECT_ALL_Appliances_QUERY = 'SELECT * FROM Appliances order by Room';
 const connection = mysql.createConnection({
     host:'localhost',
     user:'root',
-    password:'dave',
+    password:'****',
     database:'Solar'
 });
 
@@ -21,8 +21,9 @@ connection.connect(err => {
 
 console.log(connection);
 
-app.get('/api/Students', (req,res) => {
-const Students = [
+//test data for a route
+app.get('/api/People', (req,res) => {
+const people = [
  {   id: '1', firstname:'john', lastname:'crakers'},
   {   id: '2', firstname:'willy', lastname:'smith'},
    {  id: '3', firstname:'bill', lastname:'smith'}
@@ -37,6 +38,7 @@ app.get('/', (req,res) => {
     res.send('go to / Weather')
 });
 
+//route for the weather database
 app.get('/weather/search', (req,res) => {
     const {cityid} = req.query;
     const SELECT_ALL_Weather_QUERY = 'SELECT * FROM weather WHERE Location_id = '+ cityid;
@@ -53,6 +55,7 @@ app.get('/weather/search', (req,res) => {
      });
 });
 
+//route to add rooms to Solar database for solar app
 app.post('/Appliances/add?', (req,res) => {
 
     console.log('adding information to database from express')
@@ -76,7 +79,7 @@ app.post('/Appliances/add?', (req,res) => {
      });
 });
 
-
+//route to return appliances from Solar database
 app.get('/Appliances', (req,res) => {
     connection.query(SELECT_ALL_Appliances_QUERY,(err, results) =>{
         if(err) {
